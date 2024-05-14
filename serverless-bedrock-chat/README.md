@@ -79,6 +79,6 @@ To deploy the frontend, run the following command from the project root director
 ### Use
 Check your email for a welcome email from Cognito with a temporary password.
 
-Then you can navidate to the CloudFront domain that was created by the CloudFormation stack, enter your email address and password and start to use the application.
+Then you can navigate to the CloudFront domain that was created by the CloudFormation stack, enter your email address and password and start to use the application.
 
 ![Screengrab](images/screengrab.gif)
