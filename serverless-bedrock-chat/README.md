@@ -2,7 +2,7 @@
 A simple serverless web application demonstrating the use of Bedrock to interact with an LLM via a simple web chat interface. Both backend and
 frontend are implemented with TypeScript.
 
-The architecture of the application is illustrated below:-
+The architecture of the application is illustrated below:
 
 ![Architecture](images/architecture.png)
 
@@ -30,7 +30,7 @@ Finally, we upload the built artifact by running the following command
 ```
 
 ## Infrastructure
-Once we have the Lambda artifact built and ready to be deployed, we can deploy the supplied Cloud Formation template that will create all the required infrastructure (Lambda, API Gateway, S3 bucket, CloudFront distro, Cognito items etc.)
+Once we have the Lambda artifact built and ready to be deployed, we can deploy the supplied Cloud Formation template that will create all the required infrastructure (Lambda, API Gateway, S3 bucket, CloudFront, Cognito items etc.)
 
 The CloudFormation template can be found in the project root directory and requires 3 parameters to be specified when deploying, as shown in the following screenshot
 
