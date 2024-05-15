@@ -18,8 +18,9 @@ The architecture of the application is illustrated below:
 
 
 ## Backend
-Before creating the infrastructure via the AWS Cloud Formation template, build the backend
+- Before creating the infrastructure via the AWS Cloud Formation template, build the backend
 Lambda code and place it in S3 for the Lambda deployment by following the steps below
+- The code can be refactored in a modular organization to suit your specific requirements, or alternatively, AWS BedRock Knowledge Bases can be introduced.
 
 ### Create the bucket to hold the built Lambda code
 First we create an S3 bucket to hold the deployable Lambda code (remember S3 bucket names are globally unique). To create this bucket, run the following command, where `BE_DEPLOYMENT_BUCKET` is a globally unique name for the bucket.
