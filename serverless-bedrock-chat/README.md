@@ -4,7 +4,18 @@ frontend are implemented with TypeScript.
 
 The architecture of the application is illustrated below:
 
+#### Pros:
+- The Bedrock platform offers the essential model management capabilities required for developing enterprise AIGC applications.
+- The APIGateway + Lambda Serverless architecture enables high concurrency and cost optimization through on-demand payment balance.
+- Authentication and authorizes through managed cloud services, thereby reducing development costs for non-core business.
+#### Cons:
+- The absence of RAG may impose limitations on the question answering effectiveness, as it relies solely on the capabilities and iteration schedule of the LLM model.
+
+[AWS Bedrock Knowledge Bases](https://aws.amazon.com/bedrock/knowledge-bases/) could be a choice for RAG.
+
 ![Architecture](images/architecture.png)
+
+
 
 ## Backend
 Before creating the infrastructure via the AWS Cloud Formation template, build the backend
